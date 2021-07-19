@@ -61,3 +61,14 @@ body {
 .black--active {
     background-color: #333;
 }
+
+@media only screen and (max-width: 750px) {
+    html {
+        font-size: 50%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 40%;
+    }
+}
