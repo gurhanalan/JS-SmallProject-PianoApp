@@ -21,7 +21,12 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite;
+    gap: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white; */
+    background-image: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
 }
 
 .piano {
@@ -29,6 +34,9 @@ body {
     border: 1px solid black;
 }
 
+.key {
+    cursor: pointer;
+}
 .white {
     height: 40rem;
     width: 10rem;
@@ -46,10 +54,10 @@ body {
     z-index: 2;
 }
 
-.white.active {
-    background-color: #ccc;
+.white--active {
+    background-color: rgb(238, 238, 238);
 }
 
-.black.active {
+.black--active {
     background-color: #333;
 }
